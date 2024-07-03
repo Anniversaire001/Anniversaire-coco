@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.friend {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 45%;
+}
+
+.friend-photo {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.friend-info {
+    padding: 1em;
+}
+
+.friend-info h2 {
+    color: #4CAF50;
+}
+
+.friend-info p {
+    color: #333;
+}
