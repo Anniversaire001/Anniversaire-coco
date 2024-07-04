@@ -49,7 +49,7 @@ body {
     overflow: hidden;
 }
 
-.bouton-encadre {
+.list-group {
     border: 2px solid black; /* largeur, style et couleur de la bordure */
     padding: 10px 20px; /* espace intérieur du bouton */
     background-color: white; /* couleur de fond */
@@ -58,7 +58,7 @@ body {
     cursor: pointer; /* curseur de la souris */
 }
 
-.bouton-encadre:hover {
+.list-group:hover {
     background-color: lightgray; /* couleur de fond au survol */
 }
 
