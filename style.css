@@ -49,8 +49,17 @@ body {
     overflow: hidden;
 }
 
-.list-group {
+.bouton-encadre {
     border: 2px solid black; /* largeur, style et couleur de la bordure */
+    padding: 10px 20px; /* espace intérieur du bouton */
+    background-color: white; /* couleur de fond */
+    color: black; /* couleur du texte */
+    font-size: 16px; /* taille de la police */
+    cursor: pointer; /* curseur de la souris */
+}
+
+.bouton-encadre:hover {
+    background-color: lightgray; /* couleur de fond au survol */
 }
 
 header {
