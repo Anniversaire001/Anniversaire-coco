@@ -49,14 +49,32 @@ body {
     overflow: hidden;
 }
 
-  .list-group-item {
+.list-group-item {
     border: 1px solid #ccc; /* Bordure de 1 pixel solide gris clair */
-    padding: 8px 15px; /* Espacement à l'intérieur de chaque bouton */
-    display: block; /* Assure que chaque bouton occupe toute la largeur disponible */
-    text-align: left; /* Alignement du texte à gauche */
-    margin-bottom: 5px; /* Espacement entre chaque bouton */
-    border-radius:  ajust so here
+    padding: 8px 15px; /* Espacement à l'intérieur de chaque élément */
+    display: block; /* Assure que chaque élément occupe toute la largeur disponible */
+    text-decoration: none; /* Supprime la soulignement par défaut des liens */
+    color: #000; /* Couleur du texte noir */
+    background-color: #fff; /* Couleur de fond blanche */
+    margin-bottom: 5px; /* Espacement entre chaque élément */
+    border-radius: 5px; /* Bords arrondis */
 }
+
+.list-group-item:hover {
+    background-color: #f0f0f0; /* Couleur de fond au survol */
+}
+
+.list-group-item:focus,
+.list-group-item:active {
+    outline: none; /* Supprime la ligne bleue autour de l'élément au focus */
+    box-shadow: none; /* Supprime l'effet d'ombre par défaut */
+    background-color: #e0e0e0; /* Couleur de fond au focus/active */
+}
+
+.list-group-item i {
+    color: #000; /* Couleur des icônes */
+}
+
 
 header {
     background-color: #333;
