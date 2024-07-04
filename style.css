@@ -49,7 +49,7 @@ body {
     overflow: hidden;
 }
 
-.encadrement {
+.list-group {
     border: 2px solid black; /* largeur, style et couleur de la bordure */
 }
 
