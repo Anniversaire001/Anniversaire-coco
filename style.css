@@ -49,17 +49,13 @@ body {
     overflow: hidden;
 }
 
-.list-group {
-    border: 2px solid black; /* largeur, style et couleur de la bordure */
-    padding: 10px 20px; /* espace intérieur du bouton */
-    background-color: white; /* couleur de fond */
-    color: black; /* couleur du texte */
-    font-size: 16px; /* taille de la police */
-    cursor: pointer; /* curseur de la souris */
-}
-
-.list-group:hover {
-    background-color: lightgray; /* couleur de fond au survol */
+.list-group-item {
+    border: 1px solid #ccc; /* Bordure de 1 pixel solide gris clair */
+    padding: 8px 15px; /* Espacement à l'intérieur de chaque élément */
+    display: block; /* Assure que chaque élément occupe toute la largeur disponible */
+    text-decoration: none; /* Supprime la soulignement par défaut des liens */
+    margin-bottom: 5px; /* Espacement entre chaque élément */
+    border-radius: 5px; /* Bords arrondis */
 }
 
 header {
