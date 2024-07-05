@@ -110,12 +110,14 @@ nav a:hover {
     font-size: 2rem;
     margin-bottom: 1rem;
     text-align: center;
+    align-items: center;
 }
 
 .guide p {
     font-size: 1.1rem;
     color: #333;
     text-align: center;
+    align-items: center;
 }
 
 .faq ul {
@@ -123,6 +125,7 @@ nav a:hover {
     padding: 0;
     margin-top: 20px;
     text-align: center;
+    align-items: center;
 }
 
 .faq li {
